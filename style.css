@@ -27,7 +27,7 @@
 .main {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 16px auto 0;
 }
 .task,
 .text-input {
@@ -37,9 +37,10 @@
 }
 .new-task-wrapper {
   display: flex;
+  margin: 20px 0 16px;
 }
 .list {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
 }
 .list-item,
@@ -83,7 +84,7 @@
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 21px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -98,7 +99,6 @@
 /* New Task */
 .add-task {
   display: block;
-  margin: 0 0 20px;
 }
 #new-task {
   width: 318px;
